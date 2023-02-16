@@ -1,5 +1,5 @@
-header{
-    margin: 100px;
+header {
+    margin: 50px 100px;
 }
 
 nav {
@@ -16,4 +16,12 @@ nav {
     text-decoration: none;
     color: black;
     margin: 0 10px;
+}
+
+main {
+    display: flex;
+    margin: 0 100px;
+}
+.img-pieces{
+    width: 760px;
 }
