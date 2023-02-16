@@ -1,3 +1,15 @@
+:root {
+
+
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --vrayish-blue: hsl(233, 8%, 79%);
+    --vark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+
+}
+
 header {
     margin: 50px 100px;
 }
@@ -22,6 +34,47 @@ main {
     display: flex;
     margin: 0 100px;
 }
-.img-pieces{
+
+.img-pieces {
     width: 760px;
+}
+
+.column-two {
+    background: var(--very-dark-blue);
+    color: var(--Off-white);
+}
+
+.column-two-center {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 90%;
+}
+
+h2 {
+    font-size: 46px;
+    color: var(--soft-orange);
+    margin: 5px 0 25px;
+}
+h3{
+    color: var(--soft-orange);
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 23px;
+    margin: 0 0 10px 0;
+}
+
+p {
+    color: var(--Off-white);
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+hr {
+    opacity: 0.5;
+    width: 100%;
+    margin: 30px 0;
 }
