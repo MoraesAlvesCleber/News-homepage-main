@@ -37,6 +37,7 @@ main {
 
 .img-pieces {
     width: 760px;
+    margin-right: 1em;
 }
 
 .column-two {
@@ -50,7 +51,29 @@ main {
     margin: 20px;
     height: 90%;
 }
+.column-three{
+    display: flex;
+    align-items: center;
+}
+.web30{
+    margin: 20px 100px 10px 0;
 
+}
+.text-buttom{
+    font-size: 20px;
+    margin-bottom: 34px;
+}
+button{
+    letter-spacing: 5px;
+    padding: 10px;
+    background: var(--very-dark-blue);
+    color: var(--Off-white);
+}
+
+h1{
+    font-size: 30px;
+    font-size: 60px;
+}
 h2 {
     font-size: 46px;
     color: var(--soft-orange);
@@ -68,7 +91,6 @@ h4 {
 }
 
 p {
-    color: var(--Off-white);
     opacity: 0.5;
     font-size: 20px;
 }
