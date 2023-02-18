@@ -69,6 +69,7 @@ main {
 
 .text-buttom{
     font-size: 20px;
+    margin-top: 25px;
      
 }
 button{
@@ -113,6 +114,7 @@ hr {
 
 .div-footer{
     display: flex;
+    margin:  68px 100px;
 }
 .img.footer{
     width: 112px;
