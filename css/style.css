@@ -59,15 +59,25 @@ main {
     margin: 20px 100px 10px 0;
 
 }
+.div-text-button{
+    width: 413px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .text-buttom{
     font-size: 20px;
-    margin-bottom: 34px;
+     
 }
 button{
     letter-spacing: 5px;
     padding: 10px;
     background: var(--very-dark-blue);
     color: var(--Off-white);
+    width: 210px;
+   
 }
 
 h1{
@@ -99,4 +109,14 @@ hr {
     opacity: 0.5;
     width: 100%;
     margin: 30px 0;
+}
+
+.div-footer{
+    display: flex;
+}
+.img.footer{
+    width: 112px;
+}
+.footer-number{
+    font-size: 35px;
 }
