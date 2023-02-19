@@ -22,12 +22,16 @@ nav {
 
 .nav-link {
     font-size: 20px;
+    width: 476px;
 }
 
 .link {
     text-decoration: none;
     color: black;
     margin: 0 10px;
+}
+.link:hover{
+    color:var(--soft-red);
 }
 
 main {
@@ -36,7 +40,7 @@ main {
 }
 
 .img-pieces {
-    width: 760px;
+    width: 734px;
     margin-right: 1em;
 }
 
@@ -56,11 +60,12 @@ main {
     align-items: center;
 }
 .web30{
-    margin: 20px 100px 10px 0;
+    /*margin: 20px 100px 10px 0;*/
+    width: 383px;
 
 }
 .div-text-button{
-    width: 413px;
+    width: 383px;
     height: 210px;
     display: flex;
     flex-direction: column;
@@ -68,9 +73,10 @@ main {
 }
 
 .text-buttom{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 25px;
     line-height: 1.5;
+    width: 350px;
      
 }
 button{
@@ -101,6 +107,10 @@ h4 {
     font-size: 23px;
     margin: 0 0 10px 0;
 }
+h5:hover{
+    color: var(--soft-red);
+    cursor: pointer;
+}
 
 p {
     opacity: 0.5;
@@ -118,13 +128,16 @@ hr {
 footer{
     display: flex;
     margin-bottom: 200px;
+    margin-left: 100px;
+    justify-content: flex-start;
+    margin-right: 100px;
 }
 
 .div-footer{
     display: flex;
-    margin-left: 100px;
-    width: 335px;
+    width: 33.3%;
     margin-top: 65px;
+    justify-content: flex-start;
 }
 
 .div-img-footer{
