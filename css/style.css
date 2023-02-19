@@ -112,13 +112,28 @@ hr {
     margin: 30px 0;
 }
 
+/*footer*/
+
 .div-footer{
     display: flex;
     margin:  68px 100px;
 }
-.img.footer{
-    width: 112px;
+
+.div-img-footer{
+    width: 152px;
+    margin-right: 28px;
 }
+
+.img-footer{
+    width: 100%;
+}
+
 .footer-number{
     font-size: 35px;
+}
+.div-text-footer{
+    width: 461px 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
