@@ -7,8 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/reset/reset.css">
   <link rel="stylesheet" href="/css/style.css">
+
 
   <title>Frontend Mentor | News homepage</title>
 
@@ -35,15 +36,35 @@
             fill="#00001A" />
         </svg>
       </div>
-
       <ul class="nav-link">
-        <a href="#" class="link">Home</a>
-        <a href="#" class="link">New</a>
-        <a href="#" class="link">Popular</a>
-        <a href="#" class="link">Trending</a>
-        <a href="#" class="link">Categories</a>
+        <li><a href="#" class="link">Home</a></li>
+        <li><a href="#" class="link">New</a></li>
+        <li><a href="#" class="link">Popular</a></li>
+        <li><a href="#" class="link">Trending</a></li>
+        <li><a href="#" class="link">Categories</a></li>
       </ul>
+
+      <div class="container">
+        <span class="cabecalho__menu-hamburguer  container__imagem"></span>
+      </div>
     </nav>
+    <section>
+      <ul class="nav-menu">
+        <div class="button-x"><svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+              <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+            </g>
+          </svg></div>
+        <div class="nav-link-menu">
+          <li class="lista-menu__item"><a href="#" class="link">Home</a></li>
+          <li class="lista-menu__item"><a href="#" class="link">New</a></li>
+          <li class="lista-menu__item"><a href="#" class="link">Popular</a></li>
+          <li class="lista-menu__item"><a href="#" class="link">Trending</a></li>
+          <li class="lista-menu__item"><a href="#" class="link">Categories</a></li>
+        </div>
+      </ul>
+    </section>
   </header>
 
   <main>
@@ -101,7 +122,7 @@
         <div class="footer-number">02</div>
         <h5>Top 10 Laptops of 2022</h5>
         <p> Our best picks for various </p>
-        <p>  needs and budgets.</p>
+        <p> needs and budgets.</p>
       </div>
     </div>
     <div class="div-footer">
@@ -119,12 +140,13 @@
 
 
 
-   
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/MoraesAlvesCleber/News-homepage-main">Cleber Moraes</a>.
   </div>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
