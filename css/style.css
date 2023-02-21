@@ -31,6 +31,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1145px;
+    height: 100px;
 }
 
 .nav-link {
@@ -38,9 +40,14 @@ nav {
     width: 478px;
     opacity: 0.8;
 }
+
 @media (max-width: 375px) {
     header{
         margin: 10px 10px 20px 10px;
+    }
+    nav{
+        width: 338px;
+        height: 80px;
     }
     .nav-link{
         display: none;
@@ -54,6 +61,7 @@ nav {
     margin: 0 10px;
     font-family: 'Inter-Regular';
 }
+
 .link:hover{
     color:var(--soft-red);
 }
@@ -62,6 +70,7 @@ main {
     display: flex;
     margin: 0 100px;
 }
+
 @media (max-width: 375px) {
     main{
         flex-direction: column;
@@ -74,15 +83,18 @@ main {
     margin-right: 1em;
 }
 
+.column-two {
+    background: var(--very-dark-blue);
+    color: var(--Off-white);
+}
+
 @media (max-width: 375px) {
     .img-pieces{
          width: 340px;
     }
-}
-
-.column-two {
-    background: var(--very-dark-blue);
-    color: var(--Off-white);
+    .column-two{
+        margin-top: 40px;
+    }
 }
 
 .column-two-center {
@@ -93,10 +105,12 @@ main {
     height: 90%;
     width: 288;
 }
+
 .column-three{
     display: flex;
     align-items: center;
 }
+
 @media (max-width: 375px) {
      .column-three{
         flex-direction: column;
@@ -111,21 +125,33 @@ main {
     width: 383px;
 
 }
+
 .div-text-button{
     width: 383px;
     height: 210px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.text-buttom{
+.text-button{
     font-size: 15px;
     margin-top: 25px;
     line-height: 1.5;
     width: 350px;
      
 }
+
+@media (max-width: 375px) {
+    .text-button{
+        margin-left: 20px;
+    }
+    button{
+        margin-left: 20px;
+       }
+    
+}
+
 button{
     letter-spacing: 5px;
     padding: 10px;
@@ -135,6 +161,7 @@ button{
     height: 50px;
    
 }
+
 button:hover{
     cursor: pointer;
 }
@@ -144,12 +171,14 @@ h1{
     font-size: 60px;
     font-family:'Inter-Bold' ;
 }
+
 h2 {
     font-size: 40px;
     color: var(--soft-orange);
     margin: 5px 0 25px;
     font-family: 'Inter-Bold' ;
 }
+
 h3{
     color: var(--soft-orange);
     font-size: 22px;
@@ -163,14 +192,22 @@ h4 {
     font-family: 'Inter-Regular';
     font-weight: 900;
 }
+
 h5{
     font-weight: 800;
     font-size: 18px;
     font-family: 'Inter-Bold';
 }
+
 h5:hover{
     color: var(--soft-red);
     cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    h1{
+        margin-left: 20px;
+    }
 }
 
 p {
@@ -195,17 +232,23 @@ footer{
     justify-content: flex-start;
     margin-right: 100px;
 }
-@media (max-width: 375px) {
-    footer{
-        flex-direction: column;
-    }
-}
 
 .div-footer{
     display: flex;
     width: 33.3%;
     margin-top: 65px;
     justify-content: flex-start;
+}
+
+@media (max-width: 375px) {
+    footer{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .div-footer{
+        width: 100%;
+    }
 }
 
 .div-img-footer{
